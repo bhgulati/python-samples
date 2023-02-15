@@ -32,5 +32,4 @@ jobs:
       if: ${{ github.event_name != 'push' }}
       uses: github/codeql-action/upload-sarif@v2
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
         sarif_file: codeguru-results.sarif.json
