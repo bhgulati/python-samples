@@ -3,7 +3,7 @@ import pygame
 import time
 import random
 
-snake_speed = 15
+snake_speed = 17
 
 # Window size
 window_x = 720
